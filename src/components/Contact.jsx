@@ -22,47 +22,43 @@ const Contact = () => {
       [e.target.id]: e.target.value
     });
   };
-  
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-  
-    try {
-      const response = await fetch('https://script.google.com/macros/s/AKfycbyyBh9-larjLhNky7HCIubtPnvzi0XBmwQbwV0O237jphtnOR8ddouGORYhdnu3ZMKz5A/exec', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData),
+
+    const form = new FormData();
+    form.append('name', formData.name);
+    form.append('phone', formData.phone);
+    form.append('email', formData.email);
+    form.append('service', formData.service);
+    form.append('message', formData.message);
+
+    fetch('https://script.google.com/macros/s/AKfycbyyBh9-larjLhNky7HCIubtPnvzi0XBmwQbwV0O237jphtnOR8ddouGORYhdnu3ZMKz5A/exec', {
+      method: 'POST',
+      body: form
+    })
+      .then((res) => res.text())
+      .then(() => {
+        setFormData({
+          name: '',
+          phone: '',
+          email: '',
+          service: '',
+          message: ''
+        });
+        setIsSubmitting(false);
+        if (window.bootstrap && document.getElementById('thankYouModal')) {
+          const thankYouModal = new window.bootstrap.Modal(document.getElementById('thankYouModal'));
+          thankYouModal.show();
+        }
+      })
+      .catch((err) => {
+        setIsSubmitting(false);
+        alert('There was an error submitting the form.');
+        console.error(err);
       });
-  
-      const result = await response.text();
-  
-      if (result === 'Success') {
-        setFormData({ name: '', phone: '', email: '', service: '', message: '' });
-  
-        const formModalInstance = window.bootstrap.Modal.getInstance(formModalRef.current);
-        formModalInstance.hide();
-  
-        // Cleanup body scroll lock
-        document.body.classList.remove('modal-open');
-        document.body.style.overflow = '';
-        document.body.style.paddingRight = '';
-  
-        setTimeout(() => {
-          const thankModal = new window.bootstrap.Modal(thankModalRef.current);
-          thankModal.show();
-        }, 300);
-      } else {
-        alert('Something went wrong. Try again.');
-      }
-    } catch (err) {
-      console.error(err);
-      alert('Submission failed.');
-    } finally {
-      setIsSubmitting(false);
-    }
   };
-  
 
 
   return (
