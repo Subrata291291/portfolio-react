@@ -51,7 +51,7 @@ const Reviews = () => {
   };
 
   return (
-    <section className="reviews-area" id="reviews">
+    <section className="reviews-area" id="reviews" data-aos="fade-up">
       <div className="container">
         <div className="title-box text-center d-flex justify-content-center align-items-center position-relative">
           <h2>Reviews</h2>

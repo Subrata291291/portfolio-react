@@ -53,7 +53,7 @@ const Skills = () => {
     skills.map((skill, i) => {
       const realIndex = startIndex + i;
       return (
-        <section className="skill-group" key={realIndex} id="skills">
+        <section className="skill-group" key={realIndex} id="skills" data-aos="fade-up">
           <div className="skill-label">
             <span>{skill.name}</span>
             <span className="count">{counts[realIndex]}%</span>

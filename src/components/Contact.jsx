@@ -62,7 +62,7 @@ const Contact = () => {
 
 
   return (
-    <section className="contact-area p-100" id="contact">
+    <section className="contact-area p-100" id="contact" data-aos="fade-up">
       <div className="container">
         <div className="title-box text-center d-flex justify-content-center align-items-center position-relative">
           <h2>Contacts</h2>
@@ -70,7 +70,7 @@ const Contact = () => {
         </div>
 
         <div className="row">
-          <div className="col-lg-6 col-xl-5 col-xxl-4">
+          <div className="col-lg-6 col-xl-5 col-xxl-4" data-aos="fade-right">
             <div className="contact-left">
               <form  onSubmit={handleSubmit}>
                 <h3>Leave a message</h3>
@@ -101,7 +101,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className="col-lg-6 col-xl-7 col-xxl-8">
+          <div className="col-lg-6 col-xl-7 col-xxl-8" data-aos="fade-left">
             <div className="contact-right">
               <div className="txt-box d-xl-flex align-items-center">
                 <h1>Get In <span>Touch</span></h1>

@@ -12,7 +12,7 @@ const Portfolio = () => {
   );
 
   return (
-    <section className="portfolio-area p-100" id="portfolio-area">
+    <section className="portfolio-area p-100" id="portfolio-area" data-aos="fade-up">
       <div className="container">
         <div className="title-box text-center d-flex justify-content-center align-items-center position-relative">
           <h2>Portfolio</h2>
