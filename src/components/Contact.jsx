@@ -58,6 +58,19 @@ const Contact = () => {
         alert('There was an error submitting the form.');
         console.error(err);
       });
+      if (result === 'Success') {
+        setFormData({ name: '', phone: '', email: '', service: '', message: '' });
+      
+        // Hide the form modal
+        const formModalInstance = window.bootstrap.Modal.getInstance(formModalRef.current);
+        formModalInstance.hide();
+      
+        // Show the thank you modal after slight delay
+        setTimeout(() => {
+          const thankModal = new window.bootstrap.Modal(thankModalRef.current);
+          thankModal.show();
+        }, 300); // Add slight delay to ensure class cleanup
+      }
   };
 
 
