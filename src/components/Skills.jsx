@@ -69,7 +69,7 @@ const Skills = () => {
     });
 
   return (
-    <div className="skills-area p-100" id="skills" data-aos="fade-up" ref={skillsRef}>
+    <div className="skills-area" id="skills" data-aos="fade-up" ref={skillsRef}>
       <div className="container">
         <div className="title-box text-center d-flex justify-content-center align-items-center position-relative">
           <h2>Skills</h2>
