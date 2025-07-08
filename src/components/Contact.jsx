@@ -34,7 +34,7 @@ const Contact = () => {
     form.append('service', formData.service);
     form.append('message', formData.message);
 
-    fetch('https://script.google.com/macros/s/AKfycbyyBh9-larjLhNky7HCIubtPnvzi0XBmwQbwV0O237jphtnOR8ddouGORYhdnu3ZMKz5A/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbx5mWP8p8JPFwtM_P6edPLRYHwd-sv8qP0-ZjsZOtQAvftczujCDYcqGLvo5tlNNzmbag/exec', {
       method: 'POST',
       body: form
     })
@@ -62,7 +62,7 @@ const Contact = () => {
 
 
   return (
-    <section className="contact-area p-100" id="contact" data-aos="fade-up">
+    <section className="contact-area p-100" id="contact">
       <div className="container">
         <div className="title-box text-center d-flex justify-content-center align-items-center position-relative">
           <h2>Contacts</h2>
@@ -70,7 +70,7 @@ const Contact = () => {
         </div>
 
         <div className="row">
-          <div className="col-lg-6 col-xl-5 col-xxl-4" data-aos="fade-right">
+          <div className="col-lg-6 col-xl-5 col-xxl-4">
             <div className="contact-left">
               <form  onSubmit={handleSubmit}>
                 <h3>Leave a message</h3>
@@ -101,7 +101,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className="col-lg-6 col-xl-7 col-xxl-8" data-aos="fade-left">
+          <div className="col-lg-6 col-xl-7 col-xxl-8">
             <div className="contact-right">
               <div className="txt-box d-xl-flex align-items-center">
                 <h1>Get In <span>Touch</span></h1>
@@ -133,7 +133,7 @@ const Contact = () => {
                 </li>
               </ul>
               <iframe className="mt-5 d-lg-none d-xl-block"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58940.95081666892!2d88.45160104304165!3d22.586229947078163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275350398a5b9%3A0x75e165b244323425!2sNewtown%2C%20Kolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1751961363470!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14736.291556014612!2d88.42368324394353!3d22.576377035302546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275b020703c0d%3A0xece6f8e0fc2e1613!2sSector%20V%2C%20Bidhannagar%2C%20Kolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1751968693522!5m2!1sen!2sin"
                 width="100%" height="150" style={{ border: 0 }}
                 allowFullScreen loading="lazy" title="Map"
               ></iframe>
@@ -143,14 +143,14 @@ const Contact = () => {
       </div>
 
       {/* Thank You Modal */}
-      <div className="thank-you-modal modal fade" id="thankYouModal" tabIndex="-1" aria-labelledby="thankYouModalLabel" aria-hidden="true">
-        <div className="modal-dialog modal-dialog-centered shadow">
+      <div className="thank-you-modal modal fade" id="thankYouModal" tabIndex="-1" aria-hidden="true">
+        <div className="modal-dialog modal-dialog-centered">
           <div className="modal-content text-center">
             <div className="modal-header border-0">
               <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div className="modal-body">
-              <img src={checkmark} alt="Thank you" width="100" />
+              <img src={checkmark} alt="Thank You" width="80" />
               <h4 className="mt-3">Thanks for contacting us. We will get back to you shortly.</h4>
             </div>
           </div>

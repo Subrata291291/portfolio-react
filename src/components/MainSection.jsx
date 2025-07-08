@@ -57,7 +57,8 @@ const MainSection = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-2">
-              <div className="nav-area offcanvas offcanvas-start" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+              <div className="nav-area offcanvas offcanvas-start" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel" tabIndex="-1"
+  aria-hidden="true">
                 <div className="logo text-center">
                   <img src= {myPic} alt="" />
                   <button type="button" className="btn-close text-reset d-md-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
