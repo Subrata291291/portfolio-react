@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import $ from 'jquery';
 import 'slick-carousel';
 import reviewData from '../data/reviewData';
+import star from '../assets/images/star.svg'
 
 const Reviews = () => {
     useEffect(() => {
@@ -56,7 +57,7 @@ const Reviews = () => {
         <div className="title-box text-center d-flex justify-content-center align-items-center position-relative">
           <h2>Reviews</h2>
           <h3>
-            <span><img src="images/star.svg" alt="" /></span> What my clients say <span><img src="images/star.svg" alt="" /></span>
+            <span><img src={star} alt="" /></span> What my clients say <span><img src={star} alt="" /></span>
           </h3>
         </div>
         <div className="review-slider p-0 container">
