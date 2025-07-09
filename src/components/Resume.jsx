@@ -20,7 +20,7 @@ const Resume = () => {
             <h1 className="mb-4">My Education</h1>
             {educationData.map((edu, index) => (
               <div
-                className={`education-box ${index % 2 !== 0 ? "mb-5" : ""}`}
+                className={`education-box ${index % 2 !== 0 ? "mt-5 mb-5" : "mt-5"}`}
                 key={index}
                 data-aos="fade-right"
                 data-aos-duration={index > 0 ? "1000" : "500"}
