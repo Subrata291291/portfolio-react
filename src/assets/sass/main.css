@@ -602,7 +602,7 @@ a {
 .main .main-right .contact-area .contact-left input:-webkit-autofill:hover,
 .main .main-right .contact-area .contact-left input:-webkit-autofill:focus,
 .main .main-right .contact-area .contact-left input:-webkit-autofill:active {
-  box-shadow: 0 0 0 1000px #25272D inset !important;
+  box-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
   -webkit-text-fill-color: #fff !important;
   -webkit-transition: background-color 5000s ease-in-out 0s;
   transition: background-color 5000s ease-in-out 0s;
