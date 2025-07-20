@@ -595,6 +595,7 @@ a {
 .main .main-right .contact-area .contact-left {
   background-color: #1C1E24;
   padding: 4rem;
+  box-shadow: 10px 10px 19px #1c1e22, -3px -10px 19px #262a2e;
   border-radius: 0.5rem;
 }
 .main .main-right .contact-area .contact-left input:-webkit-autofill,
@@ -617,12 +618,13 @@ a {
 }
 .main .main-right .contact-area .contact-left form input, .main .main-right .contact-area .contact-left form select, .main .main-right .contact-area .contact-left form textarea {
   width: 100%;
-  background-color: #25272D;
+  background-color: rgb(25, 27, 30);
   padding: 1.5rem;
   border: none;
   outline: none;
   margin-bottom: 1rem;
   color: #fff;
+  box-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
 }
 .main .main-right .contact-area .contact-left form input::-moz-placeholder, .main .main-right .contact-area .contact-left form select::-moz-placeholder, .main .main-right .contact-area .contact-left form textarea::-moz-placeholder {
   color: #ffffff;
