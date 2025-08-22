@@ -38,7 +38,7 @@ const portfolioData = [
     title: "Petmania",
     image: petmania,
     preview: petmaniaLg,
-    liveLink: "http://mydem06.unaux.com/",
+    liveLink: "http://mydem06.unaux.com",
   },
   {
     id: 2,
@@ -46,7 +46,7 @@ const portfolioData = [
     title: "Calcutta Delights",
     image: calcutta,
     preview: calcuttaLg,
-    liveLink: "https://calcuttadelights.nl/",
+    liveLink: "https://calcuttadelights.nl",
   },
   {
     id: 3,
