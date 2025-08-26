@@ -28,8 +28,6 @@ import portfolioLg from '../assets/images/portfolio-lg.png';
 import portfolio from '../assets/images/portfolio.png';
 import gictLg from '../assets/images/gict-lg.png';
 import gict from '../assets/images/gict.png';
-import pawLg from '../assets/images/pawLg.png'
-import paw from '../assets/images/paw.png';
 
 const portfolioData = [
   {
@@ -191,14 +189,6 @@ const portfolioData = [
     image: portfolio,
     preview: portfolioLg,
     liveLink: "https://subrata291291.github.io/portfolio-html/",
-  },
-  {
-    id: 21,
-    category: "e-commerce",
-    title: "jewellery",
-    image: paw,
-    preview: pawLg,
-    liveLink: "https://pawcrush.in/",
   },
 ];
 
