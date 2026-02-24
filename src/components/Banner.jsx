@@ -49,7 +49,7 @@ const Banner = () => {
         A Front-end <span>Developer &</span>
       </h1>
 
-      <div className="row">
+      <div className="row align-items-center">
         <div className="col-lg-6">
           <div className="banner-left" data-aos="zoom-in">
             <img src={headerImg} alt="Header" className="banner-pic" />
