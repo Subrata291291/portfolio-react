@@ -24,10 +24,20 @@ import groceryLg from '../assets/images/grocery-lg.png';
 import grocery from '../assets/images/grocery.png';
 import regfoodLg from '../assets/images/regfood-lg.png';
 import regfood from '../assets/images/regfood.png';
-import portfolioLg from '../assets/images/portfolio-lg.png';
+import portfolioLg from '../assets/images/portfolioLarge.png';
 import portfolio from '../assets/images/portfolio.png';
 import gictLg from '../assets/images/gict-lg.png';
 import gict from '../assets/images/gict.png';
+import vincent from '../assets/images/vincent.jpg';
+import vincentLg from '../assets/images/vincent.png';
+import photography from '../assets/images/photography.jpg';
+import photographyLg from '../assets/images/photography.png';
+import saluja from '../assets/images/saluja.jpg';
+import salujaLg from '../assets/images/saluja.png';
+import poco from '../assets/images/poco.jpg';
+import pocoLg from '../assets/images/poco.png';
+import music from '../assets/images/music.jpg';
+import musicLg from '../assets/images/music.png';
 
 const portfolioData = [
   {
@@ -188,7 +198,47 @@ const portfolioData = [
     title: "informative",
     image: portfolio,
     preview: portfolioLg,
-    liveLink: "https://subrata291291.github.io/portfolio-html/",
+    liveLink: "https://subratahaldar.netlify.app/",
+  },
+  {
+    id: 21,
+    category: "e-commerce",
+    title: "ecommerce",
+    image: vincent,
+    preview: vincentLg,
+    liveLink: "https://vincentarenabooking.com/",
+  },
+  {
+    id: 22,
+    category: "e-commerce",
+    title: "ecommerce",
+    image: photography,
+    preview: photographyLg,
+    liveLink: "https://react-photography.netlify.app/",
+  },
+  {
+    id: 23,
+    category: "e-commerce",
+    title: "ecommerce",
+    image: saluja,
+    preview: salujaLg,
+    liveLink: "https://react-automobile.netlify.app/",
+  },
+  {
+    id: 24,
+    category: "restaurent",
+    title: "ecommerce",
+    image: poco,
+    preview: pocoLg,
+    liveLink: "https://react-poco.netlify.app/",
+  },
+  {
+    id: 25,
+    category: "blog",
+    title: "audio",
+    image: music,
+    preview: musicLg,
+    liveLink: "https://musicsbox.netlify.app/",
   },
 ];
 
