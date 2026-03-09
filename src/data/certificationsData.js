@@ -13,6 +13,7 @@ import materializeLg from "../assets/images/materialize.jpg";
 import photoshop from "../assets/images/photoshop.jpg";
 import photoshopLg from "../assets/images/photoshop.jpg";
 
+
        {/* https://www.udemy.com/certificate/UC-0a60e664-7f8e-4d99-b83e-c8fceb3cf1ff/ -wordpress
        https://www.udemy.com/certificate/UC-27a6fd4a-b351-47bc-9128-436ae64b65c2/ -figma
        https://www.udemy.com/certificate/UC-1b97965a-0548-4338-adc9-4fd81520f587/ -bootstrap
