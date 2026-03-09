@@ -1,21 +1,21 @@
 
 export const educationData = [
     {
-      year: "2010",
+      year: "May 2010",
       title: "Secondary Education",
       institute: "Bidyarthy Bhaban Boys High School",
       description:
         "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
     },
     {
-      year: "2012",
+      year: "April 2012",
       title: "Higher Secondary Education",
       institute: "Bidyarthy Bhaban Boys High School",
       description:
         "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
     },
     {
-      year: "2012-2015",
+      year: "Dec 2013",
       title: "Computer Science",
       institute: "GT Engineering College",
       description:
@@ -29,7 +29,7 @@ export const educationData = [
         "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
     },
     {
-      year: "2019-2020",
+      year: "Oct 2010",
       title: "Web Designing",
       institute: "Karmick Institute",
       description:
@@ -53,21 +53,28 @@ export const educationData = [
         "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
     },
     {
-      year: "2021-2021",
+      year: "01/2021-07/2021",
       title: "Web Designer",
       institute: "Proclivity Digitech India Pvt Ltd",
       description:
         "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
     },
     {
-      year: "2021-2022",
+      year: "01/2021-01/2022",
       title: "Front-End Developer",
       institute: "First Rite IT Services",
       description:
         "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
     },
     {
-      year: "2022-Present",
+      year: "12/2021-04/2022",
+      title: "Front-End Developer",
+      institute: "A1 Future Technologies",
+      description:
+        "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+    },
+    {
+      year: "22/2022-Present",
       title: "Senior Executive Web",
       institute: "Codeclouds IT Solutions",
       description:
