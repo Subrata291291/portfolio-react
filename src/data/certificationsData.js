@@ -13,11 +13,11 @@ import javascriptLg from "../assets/images/javascript.jpg";
 import jquery from "../assets/images/jquery.jpg";
 import jqueryLg from "../assets/images/jquery.jpg";
 
-// import materialize from "../assets/images/materialize.jpg";
-// import materializeLg from "../assets/images/materialize.jpg";
+import materializee from "../assets/images/materializee.jpg";
+import materializeeLg from "../assets/images/materializee.jpg";
 
-// import photoshop from "../assets/images/photoshop.jpg";
-// import photoshopLg from "../assets/images/photoshop.jpg";
+import photoshopp from "../assets/images/photoshopp.jpg";
+import photoshoppLg from "../assets/images/photoshopp.jpg";
 
 const certificationsData = [
   {
@@ -55,20 +55,20 @@ const certificationsData = [
     preview: jqueryLg,
     live: "https://www.udemy.com/certificate/UC-30f1a382-10df-472e-84a9-5e06e18aab2b/",
   },
-  // {
-  //   id: 6,
-  //   title: "Materialize",
-  //   image: materialize,
-  //   preview: materializeLg,
-  //   live: "https://www.udemy.com/certificate/UC-52aafd5c-f099-43db-a926-0c3b4c4d732e/",
-  // },
-  // {
-  //   id: 7,
-  //   title: "Photoshop",
-  //   image: photoshop,
-  //   preview: photoshopLg,
-  //   live: "https://www.udemy.com/certificate/UC-fc30d719-4cfe-453a-8f55-80c7cc165a73/",
-  // },
+  {
+    id: 6,
+    title: "Materialize",
+    image: materializee,
+    preview: materializeeLg,
+    live: "https://www.udemy.com/certificate/UC-52aafd5c-f099-43db-a926-0c3b4c4d732e/",
+  },
+  {
+    id: 7,
+    title: "Photoshop",
+    image: photoshopp,
+    preview: photoshoppLg,
+    live: "https://www.udemy.com/certificate/UC-fc30d719-4cfe-453a-8f55-80c7cc165a73/",
+  },
 ];
 
 export default certificationsData;
