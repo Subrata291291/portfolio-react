@@ -34,7 +34,7 @@ const Contact = () => {
     form.append('service', formData.service);
     form.append('message', formData.message);
 
-    fetch('https://script.google.com/macros/s/AKfycbxlbmrcqMvjLVv56_DZuaQeK2Sb0XpXFiNT9MNZiunMsuGKjeCyl7vxmPnGYfVqB00jMw/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbwYtmB-46fbcE41Ew-UTdr0I6IHaOM_7W7BcFKEraemsnIJTmUakKMqQNCVsAzr2jZS/exec', {
       method: 'POST',
       body: form
     })
