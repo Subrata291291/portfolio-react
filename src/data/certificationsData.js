@@ -20,7 +20,7 @@ import photoshopLg from "../assets/images/photoshop.jpg";
        https://www.udemy.com/certificate/UC-30f1a382-10df-472e-84a9-5e06e18aab2b/ -jquery
        https://www.udemy.com/certificate/UC-52aafd5c-f099-43db-a926-0c3b4c4d732e/ - Materialize 
        https://www.udemy.com/certificate/UC-fc30d719-4cfe-453a-8f55-80c7cc165a73/ -Photoshop  */}
-       
+
 
 const certificationsData = [
   {
@@ -66,7 +66,7 @@ const certificationsData = [
     live: "https://www.udemy.com/certificate/UC-52aafd5c-f099-43db-a926-0c3b4c4d732e/",
   },
   {
-    id: 6,
+    id: 7,
     title: "photoshop",
     image: photoshop,
     preview: photoshopLg,
