@@ -66,6 +66,10 @@ a {
   padding: 10rem 0rem;
 }
 
+.pt-100 {
+  padding-top: 10rem;
+}
+
 .p-50 {
   padding: 5rem 0rem;
 }
@@ -864,6 +868,9 @@ a {
   .p-100 {
     padding: 7rem 0rem;
   }
+  .pt-100 {
+    padding-top: 5rem;
+  }
   .main .nav-area {
     overflow: scroll;
   }
@@ -940,6 +947,9 @@ a {
 @media (max-width: 767px) {
   .p-100 {
     padding: 5rem 0rem;
+  }
+  .pt-100 {
+    padding-top: 5rem;
   }
   .main .nav-area {
     padding: 1.5rem;

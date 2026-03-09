@@ -16,6 +16,7 @@ import Skills from './Skills';
 import Portfolio from './Portfolio';
 import Reviews from './Reviews';
 import Contact from './Contact';
+import Certifications from './Certifications';
 
 const MainSection = () => {
  
@@ -82,6 +83,7 @@ const MainSection = () => {
                 <About/>
                 <Services/>
                 <Resume />
+                <Certifications/>
                 <Skills/>
                 <Portfolio/>
                 <Reviews/>
