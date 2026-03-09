@@ -4,6 +4,7 @@ import home from '../assets/images/home.svg';
 import about from '../assets/images/about.svg';
 import service from '../assets/images/service.svg';
 import resume from '../assets/images/resume.svg';
+import certifications from '../assets/images/about.svg';
 import skills from '../assets/images/skills.svg';
 import portfolio from '../assets/images/portfolio.svg';
 import feedback from '../assets/images/feedback.svg';
@@ -70,6 +71,7 @@ const MainSection = () => {
                   <li><a href="#about"><span><img src={about} alt="" /></span> About Me</a></li>
                   <li><a href="#services"><span><img src={service} alt="" /></span> My Services</a></li>
                   <li><a href="#resume"><span><img src={resume} alt="" /></span> Resume</a></li>
+                  <li><a href="#certification-area"><span><img src={certifications} alt="" /></span> Certifications</a></li>
                   <li><a href="#skills"><span><img src={skills} alt="" /></span> Skills</a></li>
                   <li><a href="#portfolio-area"><span><img src={portfolio} alt="" /></span> Portfolio</a></li>
                   <li><a href="#reviews"><span><img src={feedback} alt="" /></span> Reviews</a></li>
