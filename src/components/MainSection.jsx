@@ -75,7 +75,7 @@ const MainSection = () => {
                   <li><a href="#skills"><span><img src={skills} alt="" /></span> Skills</a></li>
                   <li><a href="#portfolio-area"><span><img src={portfolio} alt="" /></span> Portfolio</a></li>
                   <li><a href="#reviews"><span><img src={feedback} alt="" /></span> Reviews</a></li>
-                  <li><a href="#contact"><span><img src={contact} alt="" /></span> Contact </a></li>
+                  <li><a href="#contact"><span><img src={contact} alt="" /></span> Contact</a></li>
                 </ul>
               </div>
             </div>
