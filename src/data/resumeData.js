@@ -60,7 +60,7 @@ export const educationData = [
         "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
     },
     {
-      year: "01/2021-01/2022",
+      year: "07/2021-01/2022",
       title: "Front-End Developer",
       institute: "First Rite IT Services",
       description:
