@@ -19,6 +19,7 @@ import materializeeLg from "../assets/images/materializee.jpg";
 import photoshopp from "../assets/images/photoshopp.jpg";
 import photoshoppLg from "../assets/images/photoshopp.jpg";
 
+
 const certificationsData = [
   {
     id: 1,
