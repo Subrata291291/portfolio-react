@@ -1,5 +1,5 @@
 import wordpress from "../assets/images/wordpress.jpg";
-import wordpressLg from "../assets/images/figma.jpg";
+import wordpressLg from "../assets/images/wordpress.jpg";
 import figma from "../assets/images/figma.jpg";
 import figmaLg from "../assets/images/figma.jpg";
 import bootstrap from "../assets/images/bootstrap.jpg";
@@ -21,7 +21,7 @@ import photoshopLg from "../assets/images/photoshop.jpg";
        https://www.udemy.com/certificate/UC-52aafd5c-f099-43db-a926-0c3b4c4d732e/ - Materialize 
        https://www.udemy.com/certificate/UC-fc30d719-4cfe-453a-8f55-80c7cc165a73/ -Photoshop  */}
 
-       
+
 const certificationsData = [
   {
     id: 1,
