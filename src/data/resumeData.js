@@ -29,7 +29,7 @@ export const educationData = [
         "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
     },
     {
-      year: "Oct 2010",
+      year: "Oct 2020",
       title: "Web Designing",
       institute: "Karmick Institute",
       description:
