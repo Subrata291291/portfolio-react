@@ -5,7 +5,7 @@ import arrow from '../assets/images/arrow.png';
 import dots from '../assets/images/elements1.png';
 import audioIcon from '../assets/images/elements2.png';
 import audio from '../assets/images/my-audio.mp3';
-import resume from '../assets/images/cv.pdf'
+import resume from '../assets/images/cv-pink.pdf'
 
 const Banner = () => {
   const playAudio = () => {
