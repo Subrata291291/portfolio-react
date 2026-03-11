@@ -41,7 +41,7 @@ export const educationData = [
     {
       year: "2015-2017",
       title: "Computer Engineer",
-      institute: "Kohinoor Techncal Institute",
+      institute: "Kohinoor Technical Institute",
       description:
         "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
     },
