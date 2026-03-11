@@ -5,7 +5,7 @@ import arrow from '../assets/images/arrow.png';
 import dots from '../assets/images/elements1.png';
 import audioIcon from '../assets/images/elements2.png';
 import audio from '../assets/images/my-audio.mp3';
-import resume from '../assets/images/resume.pdf'
+import resume from '../assets/images/cv.pdf'
 
 const Banner = () => {
   const playAudio = () => {
@@ -67,7 +67,7 @@ const Banner = () => {
               <img src={dots} alt="dots" className="dots4" />
             </h4>
             <p className="mt-5" data-aos="fade-right" data-aos-duration="1000">
-              I’m a passionate and detail-oriented UI/UX designer with a strong focus on creating intuitive and visually appealing digital experiences...
+              I'm a passionate and detail-oriented UI/UX designer with a strong focus on creating intuitive and visually appealing digital experiences...
             </p>
             <button className="common-btn" onClick={() => window.open(resume, '_blank')}>
               <span><i className="fa-solid fa-download"></i></span> Download CV
