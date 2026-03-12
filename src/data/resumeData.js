@@ -43,7 +43,7 @@ export const educationData = [
       title: "Computer Engineer",
       institute: "Kohinoor Technical Institute",
       description:
-        "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+        "Lisque persius intereset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
     },
     {
       year: "2017-2019",
