@@ -235,7 +235,7 @@ const portfolioData = [
   {
     id: 25,
     category: "blog",
-    title: "audio",
+    title: "Music",
     image: music,
     preview: musicLg,
     liveLink: "https://musicsbox.netlify.app/",
