@@ -86,7 +86,7 @@ const portfolioData = [
     title: "Makeup Artist",
     image: makeup,
     preview: makeupLg,
-    liveLink: "http://mydem03.unaux.com/",
+    liveLink: "https://makeoverbynandita.netlify.app/",
   },
   {
     id: 7,
