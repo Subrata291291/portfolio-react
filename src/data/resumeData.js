@@ -50,7 +50,7 @@ export const educationData = [
       title: "District Coordinator",
       institute: "Extramarks Education Pvt Ltd",
       description:
-        "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+        "Lisque persiuss interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
     },
     {
       year: "01/2021-07/2021",
