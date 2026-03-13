@@ -19,6 +19,7 @@ import materializeeLg from "../assets/images/materializee.jpg";
 import photoshopp from "../assets/images/photoshopp.jpg";
 import photoshoppLg from "../assets/images/photoshopp.jpg";
 
+import react from "../assets/images/react.jpg";
 
 const certificationsData = [
   {
@@ -69,6 +70,13 @@ const certificationsData = [
     image: photoshopp,
     preview: photoshoppLg,
     live: "https://www.udemy.com/certificate/UC-fc30d719-4cfe-453a-8f55-80c7cc165a73/",
+  },
+  {
+    id: 8,
+    title: "React",
+    image: react,
+    preview: react,
+    live: "https://www.udemy.com/certificate/UC-24b65170-8718-4556-b218-bd1ed61d7631/",
   },
 ];
 
