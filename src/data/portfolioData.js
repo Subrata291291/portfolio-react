@@ -39,7 +39,7 @@ import pocoLg from '../assets/images/poco.png';
 import music from '../assets/images/music.jpg';
 import musicLg from '../assets/images/music.png';
 import zyraluxe from '../assets/images/zyraluxe.png';
-import zyraluxeLg from '../assets/images/zyraluxeLg.png';
+import zyraluxeLg from '../assets/images/zyraluxelg.png';
 
 const portfolioData = [
   {
