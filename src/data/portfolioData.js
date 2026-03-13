@@ -38,6 +38,8 @@ import poco from '../assets/images/poco.jpg';
 import pocoLg from '../assets/images/poco.png';
 import music from '../assets/images/music.jpg';
 import musicLg from '../assets/images/music.png';
+import zyraluxe from '../assets/images/zyraluxe.png';
+import zyraluxeLg from '../assets/images/zyraluxeLg.png';
 
 const portfolioData = [
   {
@@ -239,6 +241,14 @@ const portfolioData = [
     image: music,
     preview: musicLg,
     liveLink: "https://musicsbox.netlify.app/",
+  },
+  {
+    id: 26,
+    category: "e-commerce",
+    title: "e-commerce",
+    image: zyraluxe,
+    preview: zyraluxeLg,
+    liveLink: "https://zyraluxe.in/",
   },
 ];
 
