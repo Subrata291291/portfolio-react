@@ -40,6 +40,8 @@ import music from '../assets/images/music.jpg';
 import musicLg from '../assets/images/music.png';
 import zyraluxe from '../assets/images/zyraluxe.png';
 import zyraluxeLg from '../assets/images/zyraluxelg.png';
+import vincentacademy from '../assets/images/vincentacademy.png';
+import vincentacademyLg from '../assets/images/vincentacademyLg.png';
 
 const portfolioData = [
   {
@@ -249,6 +251,14 @@ const portfolioData = [
     image: zyraluxe,
     preview: zyraluxeLg,
     liveLink: "https://zyraluxe.in/",
+  },
+  {
+    id: 27,
+    category: "blog",
+    title: "blog",
+    image: vincentacademy,
+    preview: vincentacademyLg,
+    liveLink: "https://stvincentcbseburdwan.org/",
   },
 ];
 
