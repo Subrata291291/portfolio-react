@@ -20,6 +20,7 @@ import photoshopp from "../assets/images/photoshopp.jpg";
 import photoshoppLg from "../assets/images/photoshopp.jpg";
 
 import react from "../assets/images/react.jpg";
+import vive from "../assets/images/vive-coding.jpg";
 
 const certificationsData = [
   {
@@ -77,6 +78,13 @@ const certificationsData = [
     image: react,
     preview: react,
     live: "https://www.udemy.com/certificate/UC-24b65170-8718-4556-b218-bd1ed61d7631/",
+  },
+  {
+    id: 9,
+    title: "Ai",
+    image: vive,
+    preview: vive,
+    live: "https://www.udemy.com/certificate/UC-7c3d716f-abcf-4323-b1b2-fae001ea7c39/",
   },
 ];
 
