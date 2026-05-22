@@ -42,6 +42,8 @@ import zyraluxe from '../assets/images/zyraluxe.png';
 import zyraluxeLg from '../assets/images/zyraluxelg.png';
 import vincentacademy from '../assets/images/vincentacademy.png';
 import vincentacademyLg from '../assets/images/vincentacademyLg.png';
+import matrimony from '../assets/images/matrimony.png';
+import matrimonyLg from '../assets/images/matrimonyLg.png';
 
 const portfolioData = [
   {
@@ -259,6 +261,14 @@ const portfolioData = [
     image: vincentacademy,
     preview: vincentacademyLg,
     liveLink: "https://stvincentcbseburdwan.org/",
+  },
+  {
+    id: 28,
+    category: "portfolio",
+    title: "portfolio",
+    image: matrimony,
+    preview: matrimonyLg,
+    liveLink: "https://store.zyraluxe.in/",
   },
 ];
 
