@@ -118,7 +118,7 @@ const portfolioData = [
     title: "travel",
     image: travel,
     preview: travelLg,
-    liveLink: "http://mydem06.unaux.com/",
+    liveLink: "https://store.januskitchen.nl/",
   },
   {
     id: 10,
