@@ -44,6 +44,8 @@ import vincentacademy from '../assets/images/vincentacademy.png';
 import vincentacademyLg from '../assets/images/vincentacademyLg.png';
 import matrimony from '../assets/images/matrimony.png';
 import matrimonyLg from '../assets/images/matrimonyLg.png';
+import spark from '../assets/images/spark.png';
+import sparkLg from '../assets/images/sparkLg.png';
 
 const portfolioData = [
   {
@@ -269,6 +271,14 @@ const portfolioData = [
     image: matrimony,
     preview: matrimonyLg,
     liveLink: "https://store.zyraluxe.in/",
+  },
+  {
+    id: 29,
+    category: "portfolio",
+    title: "portfolio",
+    image: spark,
+    preview: sparkLg,
+    liveLink: "https://store.zyraluxe.in/app",
   },
 ];
 
