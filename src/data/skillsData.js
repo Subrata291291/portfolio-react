@@ -3,10 +3,10 @@
 const skillsData = [
     { name: "Wordpress", value: 90 },
     { name: "Adobe Photoshop", value: 80 },
-    { name: "Tailwind CSS", value: 70 },
+    { name: "Tailwind CSS", value: 85 },
     { name: "Figma", value: 90 },
     { name: "ACF", value: 95 },
-    { name: "JavaScript", value: 50 },
+    { name: "JavaScript", value: 87 },
     { name: "jQuery", value: 80 },
     { name: "Shopify", value: 70 },
     { name: "React JS", value: 50 },

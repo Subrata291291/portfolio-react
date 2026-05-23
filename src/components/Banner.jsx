@@ -67,9 +67,9 @@ const Banner = () => {
               <img src={dots} alt="dots" className="dots4" />
             </h4>
             <p className="mt-5" data-aos="fade-right" data-aos-duration="1000">
-              I'm a passionate and detail-oriented UI/UX designer with a strong focus on creating intuitive and visually appealing digital experiences...
+              I build fast, scalable, and responsive web experiences using React.js, WordPress, WooCommerce, and modern frontend technologies.
             </p>
-            <button className="common-btn" onClick={() => window.open('/cv-new.pdf', '_blank')}>
+            <button className="common-btn" onClick={() => window.open('/ats-cv.pdf', '_blank')}>
               <span><i className="fa-solid fa-download"></i></span> Download CV
             </button>
             <button id="play-audio" onClick={playAudio}>
