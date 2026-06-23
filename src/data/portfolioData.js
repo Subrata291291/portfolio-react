@@ -46,6 +46,10 @@ import matrimony from '../assets/images/matrimony.png';
 import matrimonyLg from '../assets/images/matrimonyLg.png';
 import spark from '../assets/images/spark.png';
 import sparkLg from '../assets/images/sparkLg.png';
+import dashboard from '../assets/images/dashboard.png';
+import dashboardLg from '../assets/images/dashboard-lg.png';
+import ats from '../assets/images/ats.png';
+import atsLg from '../assets/images/ats-lg.png';
 
 const portfolioData = [
   {
@@ -270,7 +274,7 @@ const portfolioData = [
     title: "portfolio",
     image: matrimony,
     preview: matrimonyLg,
-    liveLink: "https://store.zyraluxe.in/",
+    liveLink: "https://projapatibengalimatrimony.in/",
   },
   {
     id: 29,
@@ -279,6 +283,22 @@ const portfolioData = [
     image: spark,
     preview: sparkLg,
     liveLink: "https://store.zyraluxe.in/app",
+  },
+  {
+    id: 30,
+    category: "blog",
+    title: "portfolio",
+    image: dashboard,
+    preview: dashboardLg,
+    liveLink: "https://ai-life-manager.netlify.app/",
+  },
+  {
+    id: 31,
+    category: "blog",
+    title: "portfolio",
+    image: ats,
+    preview: atsLg,
+    liveLink: "https://ats-resume-builderr.netlify.app/",
   },
 ];
 
