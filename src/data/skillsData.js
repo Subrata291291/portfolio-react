@@ -15,6 +15,8 @@ const skillsData = [
     { name: "Adobe XD", value: 70 },
     { name: "Bootstrap", value: 90 },
     { name: "Materialize", value: 80 },
+    { name: "Prompt Engineering", value: 85 },
+    { name: "API Integration", value: 80 },
   ];
   
   export default skillsData;

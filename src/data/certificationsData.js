@@ -20,7 +20,10 @@ import photoshopp from "../assets/images/photoshopp.jpg";
 import photoshoppLg from "../assets/images/photoshopp.jpg";
 
 import react from "../assets/images/react.jpg";
+
 import vive from "../assets/images/vive-coding.jpg";
+
+import prompt_engineering_API_integration from "../assets/images/prompt_engineering_API_integration.jpg";
 
 const certificationsData = [
   {
@@ -85,6 +88,13 @@ const certificationsData = [
     image: vive,
     preview: vive,
     live: "https://www.udemy.com/certificate/UC-7c3d716f-abcf-4323-b1b2-fae001ea7c39/",
+  },
+  {
+    id: 10,
+    title: "Prompt Engineering and API Integration",
+    image: prompt_engineering_API_integration,
+    preview: prompt_engineering_API_integration,
+    live: "https://certificate.codingninjas.com/view/4ed725b28b86855c",
   },
 ];
 
