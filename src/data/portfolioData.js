@@ -50,6 +50,7 @@ import dashboard from '../assets/images/dashboard.png';
 import dashboardLg from '../assets/images/dashboard-lg.png';
 import ats from '../assets/images/ats.png';
 import atsLg from '../assets/images/ats-lg.png';
+import chatbot from '../assets/images/chatbot.png';
 
 const portfolioData = [
   {
@@ -299,6 +300,14 @@ const portfolioData = [
     image: ats,
     preview: atsLg,
     liveLink: "https://ats-resume-builderr.netlify.app/",
+  },
+  {
+    id: 32,
+    category: "blog",
+    title: "chatbot",
+    image: chatbot,
+    preview: chatbot,
+    liveLink: "https://chat-assistant-pch6.onrender.com/",
   },
 ];
 
