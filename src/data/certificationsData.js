@@ -23,7 +23,7 @@ import react from "../assets/images/react.jpg";
 
 import vive from "../assets/images/vive-coding.jpg";
 
-import prompt_engineering_API_integration from "../assets/images/prompt_engineering_API_integration.jpg";
+import prompt_engineering_API_integration from "../assets/images/Module1(prompt engineering and API Integration)excellence.jpg";
 
 const certificationsData = [
   {
@@ -94,7 +94,7 @@ const certificationsData = [
     title: "Prompt Engineering and API Integration",
     image: prompt_engineering_API_integration,
     preview: prompt_engineering_API_integration,
-    live: "https://certificate.codingninjas.com/view/4ed725b28b86855c",
+    live: "https://certificate.codingninjas.com/view/5865a1f988ac27f9",
   },
 ];
 
