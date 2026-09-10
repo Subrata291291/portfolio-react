@@ -51,6 +51,8 @@ import dashboardLg from '../assets/images/dashboard-lg.png';
 import ats from '../assets/images/ats.png';
 import atsLg from '../assets/images/ats-lg.png';
 import chatbot from '../assets/images/chatbot.png';
+import scam_detector from '../assets/images/scam-detector.png';
+import cineAI from '../assets/images/cineAI.png';
 
 const portfolioData = [
   {
@@ -287,7 +289,7 @@ const portfolioData = [
   },
   {
     id: 30,
-    category: "blog",
+    category: "AI-Applications",
     title: "portfolio",
     image: dashboard,
     preview: dashboardLg,
@@ -295,7 +297,7 @@ const portfolioData = [
   },
   {
     id: 31,
-    category: "blog",
+    category: "AI-Applications",
     title: "portfolio",
     image: ats,
     preview: atsLg,
@@ -303,11 +305,27 @@ const portfolioData = [
   },
   {
     id: 32,
-    category: "blog",
+    category: "AI-Applications",
     title: "chatbot",
     image: chatbot,
     preview: chatbot,
     liveLink: "https://chat-assistant-pch6.onrender.com/",
+  },
+  {
+    id: 33,
+    category: "AI-Applications",
+    title: "chatbot",
+    image: scam_detector,
+    preview: scam_detector,
+    liveLink: "https://ai-scam-detector-8pof.onrender.com/?__theme=dark",
+  },
+  {
+    id: 34,
+    category: "AI-Applications",
+    title: "chatbot",
+    image: cineAI,
+    preview: cineAI,
+    liveLink: "https://movie-recommendator-ai.onrender.com/",
   },
 ];
 

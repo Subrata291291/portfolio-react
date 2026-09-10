@@ -69,7 +69,7 @@ export const experienceData = [
     description: "Built interactive websites, optimized performance, integrated APIs, and ensured cross-browser compatibility.",
   },
   {
-    year: "22/04/2022 - 31/07/2026",
+    year: "22/04/2022 - 24/07/2026",
     title: "Senior Executive Web",
     institute: "Codeclouds IT Solutions",
     description: "Developed scalable WordPress solutions, modern UI, custom themes, AI integrations, and performance optimization.",

@@ -5,7 +5,7 @@ import star from '../assets/images/star.svg';
 const Portfolio = () => {
   const [activeTab, setActiveTab] = useState("e-commerce");
 
-  const categories = ["informative", "e-commerce", "portfolio", "restaurent", "blog"];
+  const categories = ["informative", "e-commerce", "portfolio", "restaurent", "blog" ,"AI-Applications"];
 
   const filteredProjects = portfolioData.filter(
     (project) => project.category === activeTab

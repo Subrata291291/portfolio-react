@@ -25,6 +25,8 @@ import vive from "../assets/images/vive-coding.jpg";
 
 import prompt_engineering_API_integration from "../assets/images/Module1(prompt engineering and API Integration)excellence.jpg";
 
+import DiveIntoN8N_Subrata_Haldar from "../assets/images/DiveIntoN8N_Subrata_Haldar.jpg";
+
 const certificationsData = [
   {
     id: 1,
@@ -95,6 +97,13 @@ const certificationsData = [
     image: prompt_engineering_API_integration,
     preview: prompt_engineering_API_integration,
     live: "https://certificate.codingninjas.com/view/5865a1f988ac27f9",
+  },
+  {
+    id: 11,
+    title: "Drive into N8N",
+    image: DiveIntoN8N_Subrata_Haldar,
+    preview: DiveIntoN8N_Subrata_Haldar,
+    live: "#",
   },
 ];
 

@@ -1,38 +1,49 @@
 const serviceData = [
   {
-    title: "WordPress Development",
-    description: "Build custom, responsive, and high-performance WordPress websites with modern themes, plugins, and seamless integrations.",
-    icon: "fa-brands fa-wordpress",
-    aos: "fade-left"
-  },
-  {
     title: "Frontend Development",
-    description: "Develop fast, responsive user interfaces using HTML, CSS, JavaScript, Bootstrap, Tailwind CSS, and React.",
+    description:
+      "Build fast, responsive, and user-friendly web interfaces using React.js, JavaScript, TypeScript, HTML, CSS, Bootstrap, and Tailwind CSS.",
     icon: "fa-solid fa-code",
     aos: "fade-left"
   },
-  {
-    title: "UI/UX Design",
-    description: "Design intuitive, user-friendly interfaces with Figma and Adobe XD for engaging digital experiences.",
-    icon: "fa-solid fa-pen-ruler",
-    aos: "fade-left"
-  },
+
   {
     title: "AI Application Development",
-    description: "Develop AI-powered applications using LLMs, prompt engineering, APIs, and multi-agent workflows.",
+    description:
+      "Build practical AI-powered applications using LLM APIs, prompt engineering, RAG, embeddings, vector search, AI chatbots, and tool calling.",
     icon: "fa-solid fa-robot",
-    aos: "fade-right"
+    aos: "fade-left"
   },
+
+  {
+    title: "WordPress Development",
+    description:
+      "Develop custom, responsive, and high-performance WordPress websites with custom themes, plugins, integrations, and dynamic functionality.",
+    icon: "fa-brands fa-wordpress",
+    aos: "fade-left"
+  },
+
   {
     title: "WooCommerce Solutions",
-    description: "Create scalable eCommerce stores with WooCommerce, payment gateways, product management, and performance optimization.",
+    description:
+      "Build and customize WooCommerce stores with product management, custom functionality, responsive interfaces, API integrations, and performance optimization.",
     icon: "fa-solid fa-cart-shopping",
     aos: "fade-right"
   },
+
   {
-    title: "Website Optimization",
-    description: "Improve website speed, SEO, Core Web Vitals, accessibility, and overall user experience for better performance.",
-    icon: "fa-solid fa-gauge-high",
+    title: "REST API Integration",
+    description:
+      "Integrate REST APIs and third-party services to connect frontend applications with dynamic data, external platforms, and AI-powered features.",
+    icon: "fa-solid fa-plug",
+    aos: "fade-right"
+  },
+
+  {
+    title: "UI/UX & Figma to Code",
+    description:
+      "Transform Figma designs into clean, responsive, and accessible web interfaces while maintaining visual consistency and usability.",
+    icon: "fa-solid fa-pen-ruler",
     aos: "fade-right"
   }
 ];

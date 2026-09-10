@@ -4,20 +4,21 @@ import headerImg from '../assets/images/header-img.png';
 import arrow from '../assets/images/arrow.png';
 import dots from '../assets/images/elements1.png';
 import audioIcon from '../assets/images/elements2.png';
-import audio from '../assets/images/my-audio.mp3';
-// import resume from '../assets/images/cv-new.pdf'
+import audioFile from '../assets/images/my-audio.mp3';
 
 const Banner = () => {
   const playAudio = () => {
-    const audio = document.getElementById('myAudio');
+    const audioElement = document.getElementById('myAudio');
     const icon = document.getElementById('audio-icon');
 
-    if (audio.paused || audio.ended) {
-      audio.play();
+    if (audioElement.paused || audioElement.ended) {
+      audioElement.play();
+
       icon.classList.remove('fa-play');
       icon.classList.add('fa-pause');
     } else {
-      audio.pause();
+      audioElement.pause();
+
       icon.classList.remove('fa-pause');
       icon.classList.add('fa-play');
     }
@@ -25,19 +26,26 @@ const Banner = () => {
 
   return (
     <section className="banner-area" id="banner">
+
+      {/* Banner Heading */}
       <div className="banner-heading">
         <ul className="d-flex justify-content-between align-items-center">
           <li>
             <h2>
-              <span><img src={hand} alt="wave" /></span> Hi, I'm Subrata
+              <span>
+                <img src={hand} alt="Waving hand" />
+              </span>
+              Hi, I'm Subrata
             </h2>
           </li>
+
           <li>
             <button
               className="nav-icon d-md-none"
               type="button"
               data-bs-toggle="offcanvas"
               data-bs-target="#offcanvasExample"
+              aria-label="Open navigation menu"
             >
               <i className="fa-solid fa-bars"></i>
             </button>
@@ -45,59 +53,134 @@ const Banner = () => {
         </ul>
       </div>
 
+      {/* Main Heading */}
       <h1 className="mt-md-3 mt-lg-5" data-aos="fade-right">
-        A Front-end <span>Developer &</span>
+        A Frontend <span>Developer &</span>
       </h1>
 
       <div className="row align-items-center">
+
+        {/* Left Side */}
         <div className="col-lg-6">
           <div className="banner-left" data-aos="zoom-in">
-            <img src={headerImg} alt="Header" className="banner-pic" />
-            <img src={arrow} alt="Arrow" className="arrow" />
+
+            <img
+              src={headerImg}
+              alt="Subrata Haldar - Frontend Developer"
+              className="banner-pic"
+            />
+
+            <img
+              src={arrow}
+              alt=""
+              className="arrow"
+            />
+
           </div>
         </div>
 
+        {/* Right Side */}
         <div className="col-lg-6">
           <div className="banner-right">
+
+            {/* Specialization */}
             <h4 data-aos="fade-left">
-              UI/UX Designer
-              <img src={dots} alt="dots" className="dots1" />
-              <img src={dots} alt="dots" className="dots2" />
-              <img src={dots} alt="dots" className="dots3" />
-              <img src={dots} alt="dots" className="dots4" />
+              AI Application Developer
+              
+              <img src={dots} alt="" className="dots1" />
+              <img src={dots} alt="" className="dots2" />
+              <img src={dots} alt="" className="dots3" />
+              <img src={dots} alt="" className="dots4" />
             </h4>
-            <p className="mt-5" data-aos="fade-right" data-aos-duration="1000">
-              I build fast, scalable, and responsive web experiences using React.js, WordPress, WooCommerce, and modern frontend technologies.
+
+            {/* Description */}
+            <p
+              className="mt-5"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
+              I build responsive and user-focused web applications using
+              React.js, WordPress, WooCommerce, and modern frontend
+              technologies. I also develop AI-powered applications using
+              LLMs, RAG, prompt engineering, embeddings, vector search,
+              and API integrations.
             </p>
-            <button className="common-btn" onClick={() => window.open('/ats-cv.pdf', '_blank')}>
-              <span><i className="fa-solid fa-download"></i></span> Download CV
+
+            {/* Download CV */}
+            <button
+              className="common-btn"
+              onClick={() => window.open('/Subrata_Haldar_Professional_ATS_CV.pdf', '_blank')}
+            >
+              <span>
+                <i className="fa-solid fa-download"></i>
+              </span>
+              Download CV
             </button>
-            <button id="play-audio" onClick={playAudio}>
-              <img src={audioIcon} alt="Audio Icon" className="elements4" />
-              <i id="audio-icon" className="fa-solid fa-play"></i>
+
+            {/* Audio */}
+            <button
+              id="play-audio"
+              onClick={playAudio}
+              type="button"
+              aria-label="Play introduction audio"
+            >
+              <img
+                src={audioIcon}
+                alt=""
+                className="elements4"
+              />
+
+              <i
+                id="audio-icon"
+                className="fa-solid fa-play"
+              ></i>
+
               <span>Play Audio</span>
+
               <audio id="myAudio" preload="auto">
-                <source src={audio} type="audio/mpeg" />
+                <source
+                  src={audioFile}
+                  type="audio/mpeg"
+                />
               </audio>
             </button>
 
+            {/* Social Media */}
             <div className="social-media">
+
               <h3>Follow me on:</h3>
+
               <ul className="d-flex">
+
                 <li>
-                  <a href="https://x.com/Subrata_291291" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://x.com/Subrata_291291"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="X / Twitter"
+                  >
                     <i className="fa-brands fa-x-twitter"></i>
                   </a>
                 </li>
+
                 <li>
-                  <a href="https://www.linkedin.com/in/subrata-haldar-96b32b244/" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://www.linkedin.com/in/subrata-haldar-96b32b244/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="LinkedIn"
+                  >
                     <i className="fa-brands fa-linkedin-in"></i>
                   </a>
                 </li>
+
               </ul>
+
             </div>
+
           </div>
         </div>
+
       </div>
     </section>
   );
