@@ -27,6 +27,8 @@ import prompt_engineering_API_integration from "../assets/images/Module1(prompt 
 
 import DiveIntoN8N_Subrata_Haldar from "../assets/images/DiveIntoN8N_Subrata_Haldar.jpg";
 
+import rag from "../assets/images/rag.jpg";
+
 const certificationsData = [
   {
     id: 1,
@@ -104,6 +106,13 @@ const certificationsData = [
     image: DiveIntoN8N_Subrata_Haldar,
     preview: DiveIntoN8N_Subrata_Haldar,
     live: "#",
+  },
+  {
+    id: 11,
+    title: "Basic NLP and Advanced RAG",
+    image: rag,
+    preview: rag,
+    live: "https://certificate.codingninjas.com/view/0241f9c675566064",
   },
 ];
 
