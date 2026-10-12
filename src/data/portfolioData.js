@@ -53,6 +53,7 @@ import atsLg from '../assets/images/ats-lg.png';
 import chatbot from '../assets/images/chatbot.png';
 import scam_detector from '../assets/images/scam-detector.png';
 import cineAI from '../assets/images/cineAI.png';
+import jobpilot from "../assets/images/jobpilot.png";
 
 const portfolioData = [
   {
@@ -326,6 +327,14 @@ const portfolioData = [
     image: cineAI,
     preview: cineAI,
     liveLink: "https://movie-recommendator-ai.onrender.com/",
+  },
+  {
+    id: 34,
+    category: "AI-Applications",
+    title: "jobpilot",
+    image: jobpilot,
+    preview: jobpilot,
+    liveLink: "https://ai-jobpilot.netlify.app/",
   },
 ];
 
