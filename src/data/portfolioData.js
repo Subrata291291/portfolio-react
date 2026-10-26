@@ -56,6 +56,8 @@ import cineAI from '../assets/images/cineAI.png';
 import jobpilot from "../assets/images/jobpilot.png";
 import wayfare from "../assets/images/wayfare.png";
 import travei from "../assets/images/travei-agent.png";
+import voice from "../assets/images/voice.png";
+import text_generator from "../assets/images/text_generator.png";
 
 const portfolioData = [
   {
@@ -353,6 +355,22 @@ const portfolioData = [
     image: travei,
     preview: travei,
     liveLink: "https://travel-agentai.netlify.app",
+  },
+  {
+    id: 38,
+    category: "AI-Applications",
+    title: "voice-based agent",
+    image: voice,
+    preview: voice,
+    liveLink: "https://voice-to-text-app-t11o.onrender.com/",
+  },
+  {
+    id: 39,
+    category: "AI-Applications",
+    title: "text-generated agent",
+    image: text_generator,
+    preview: text_generator,
+    liveLink: "https://huggingface-text-generator.onrender.com/",
   },
 ];
 
