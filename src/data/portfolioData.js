@@ -54,6 +54,8 @@ import chatbot from '../assets/images/chatbot.png';
 import scam_detector from '../assets/images/scam-detector.png';
 import cineAI from '../assets/images/cineAI.png';
 import jobpilot from "../assets/images/jobpilot.png";
+import wayfare from "../assets/images/wayfare.png";
+import travei from "../assets/images/travei-agent.png";
 
 const portfolioData = [
   {
@@ -329,12 +331,28 @@ const portfolioData = [
     liveLink: "https://movie-recommendator-ai.onrender.com/",
   },
   {
-    id: 34,
+    id: 35,
     category: "AI-Applications",
     title: "jobpilot",
     image: jobpilot,
     preview: jobpilot,
     liveLink: "https://ai-jobpilot.netlify.app/",
+  },
+  {
+    id: 36,
+    category: "AI-Applications",
+    title: "Travei-Agent",
+    image: wayfare,
+    preview: wayfare,
+    liveLink: "https://crewai-travel-agent.netlify.app",
+  },
+  {
+    id: 37,
+    category: "AI-Applications",
+    title: "Travei-Agent",
+    image: travei,
+    preview: travei,
+    liveLink: "https://travel-agentai.netlify.app",
   },
 ];
 
